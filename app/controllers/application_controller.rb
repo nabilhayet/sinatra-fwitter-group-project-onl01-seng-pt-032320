@@ -12,12 +12,4 @@ class ApplicationController < Sinatra::Base
   get '/' do
     erb :index
   end
-
-  get '/signup' do
-  end
-
-  get '/tweets' do
-
-  end
-
 end
