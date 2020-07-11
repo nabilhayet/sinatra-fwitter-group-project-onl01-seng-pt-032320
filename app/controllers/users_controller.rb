@@ -36,7 +36,6 @@ class UsersController < ApplicationController
 
       if @user != nil
         session[:user_id] = @user.id
-        #binding.pry
         redirect '/tweets'
       end
     end
