@@ -1,9 +1,15 @@
-<div class="main">
-       <h1>Sign In Below:</h1>
-       <form method="POST" action="/registrations">
-         <p>Name:<input type="text" name="name" id="name" required></p>
-         <p>Email:<input type="text" name="email" id="email" required></p>
-         <p>Password:<input type="password" name="password" id="password" required></p>
-         <input type="submit" id="Sign Up">
-       </form>
-     </div>
+<h1>Fwitter</h1>
+
+<br>
+
+<h2>Create an Account:</h2>
+
+  <form action="/signup" method="post">
+    <label for="username">Username:</label>
+      <input type="text" name="username" id="username">
+    <label for="email">Email:</label>
+      <input type="text" name="email" id="email">
+    <label for="password">Password:</label>
+      <input type="text" name="password" id="password">
+    <button type="submit" value="submit">Create Account</button>
+  </form>
